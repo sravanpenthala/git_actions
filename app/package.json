@@ -10,13 +10,16 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.10.9"
+    "mongoose": "^8.13.1"
   },
   "devDependencies": {
-    "jest": "^26.6.0",
+    "jest": "^29.7.0",
     "nodemon": "^2.0.4"
   },
-  "keywords": ["nodejs", "webapp"],
+  "keywords": [
+    "nodejs",
+    "webapp"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "repository": {
