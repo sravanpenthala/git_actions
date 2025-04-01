@@ -22,10 +22,10 @@ jobs:
       run: |
         echo "Installing dependencies..."
         npm install --verbose  # Add verbose for detailed logs
-        working-directory: ./app
+      working-directory: ./app  # Specify the correct directory
 
     - name: Run tests
       run: |
         echo "Running tests..."
         npm test --verbose  # Add verbose for detailed logs
-        working-directory: ./app
+      working-directory: ./app  # Specify the correct directory
